@@ -3,35 +3,33 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AI Singapore Grant Management System 2.0</title>
+    <title>AI Singapore - Grant Management System 2.0</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
     <!-- Fontastic Custom icon font-->
-    <link rel="stylesheet" href="css/fontastic.css">
+    <link rel="stylesheet" href="assets/css/fontastic.css">
     <!-- Google fonts - Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <!-- jQuery Circle-->
-    <link rel="stylesheet" href="css/grasp_mobile_progress_circle-1.0.0.min.css">
+    <link rel="stylesheet" href="assets/css/grasp_mobile_progress_circle-1.0.0.min.css">
     <!-- Custom Scrollbar-->
-    <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.red.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="assets/css/style.red.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <!--link rel="stylesheet" href="css/custom.css"-->
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico">
-
-    <!--
-        Grant Call Page
-    -->
-
+    <link rel="shortcut icon" href="assets/img/aisg_logo_white.png">
   </head>
+
   <body>
+    <!-- Grant Call Page -->
+
     <!-- Side Navbar -->
     <nav class="side-navbar">
       <div class="side-navbar-wrapper">
@@ -40,7 +38,7 @@
         <div class="sidenav-header d-flex align-items-center justify-content-center">
           <!-- User Info-->
           <div class="sidenav-header-inner text-center">
-            <img src="img/aisg_logo_white.png" alt="person" class="img-fluid rounded-circle">
+            <img src="assets/img/aisg_logo_white.png" alt="person" class="img-fluid rounded-circle">
             <h2 class="h5">Haixun</h2>
             <span>Chief Administrator</span>
           </div>
@@ -58,18 +56,24 @@
         <div class="main-menu">
           <h5 class="sidenav-heading">Main</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">
+
+            <!-- Sidebar Element 1-->
             <li>
               <a href="index.html">
                 <i class="icon-home"></i>
                 View Proposals
               </a>
             </li>
+
+            <!-- Sidebar Element 2-->
             <li>
               <a href="forms.html">
                 <i class="icon-form"></i>
                 Grant Calls
               </a>
             </li>
+
+            <!-- Sidebar Element 3-->
             <li>
               <a href="charts.html">
                 <i class="fa fa-bar-chart"></i>
@@ -83,36 +87,25 @@
         <div class="admin-menu">
           <h5 class="sidenav-heading">(Admin Only)</h5>
           <ul id="side-admin-menu" class="side-menu list-unstyled"> 
+
+            <!-- Sidebar Sub Element 1-->
             <li>
               <a href="#"> 
                 <i class="icon-screen"></i>
-                Item 1
+                User Management
               </a>
             </li>
 
+            <!-- Sidebar Sub Element 2-->
             <li>
               <a href="#">
                 <i class="icon-flask"></i>
-                Item 2
+                Options
               </a>
             </li>
 
-            <li>
-              <a href="">
-                <i class="icon-flask"></i>
-                Item 3
-              </a>
-            </li>
-
-            <li>
-              <a href="">
-                <i class="icon-picture"></i>
-                Item 4
-              </a>
-            </li>
           </ul>
         </div>
-
       </div>
     </nav>
 
@@ -139,27 +132,13 @@
         </nav>
       </header>
 
-      <!-- Breadcrumb-->
-      <div class="breadcrumb-holder">
-          <div class="container-fluid">
-            <ul class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="#">
-                  Home
-                </a>
-              </li>
-              <li class="breadcrumb-item active">Grant Calls</li>
-            </ul>
-          </div>
-      </div>
-
       <!-- Main Elements -->
       <section>
           <div class="container-fluid">
 
             <!-- Page Header-->
             <header> 
-              <h1 class="h3 display">Grants</h1>
+              <h1 class="h3 display">Grant Calls</h1>
             </header>
 
             <div class="row">
@@ -169,6 +148,8 @@
                     <div class="table-responsive">
 
                       <table class="table">
+
+                        <!-- header-->
                         <thead>
                           <tr>
                             <th class="w-20">Grant ID</th>
@@ -178,6 +159,8 @@
                             <th class="w-15">Status</th>
                           </tr>
                         </thead>
+
+                        <!-- body elements -->
                         <tbody>
                           <tr>
                             <th class="w-20">20003</th>
@@ -190,7 +173,9 @@
                             <td class="w-15">
                                 <p>30/09/2018</p>
                             </td>
-                            <td class="w-15">Unavailable</td>
+                            <td class="w-15">
+                                <p>Unavailable</p>
+                            </td>
                           </tr>
                           <tr>
                               <th class="w-20">20004</th>
@@ -203,7 +188,9 @@
                               <td class="w-15">
                                   <p>30/09/2018</p>
                               </td>
-                              <td class="w-15">Unavailable</td>
+                              <td class="w-15">
+                                Unavailable
+                              </td>
                           </tr>
                           <tr>
                               <th class="w-20">20005</th>
@@ -221,23 +208,32 @@
                         </tbody>
 
                       </table>
+
+                      <!-- nav toggle-->
                       <div class="text-center">
                         <nav aria-label="...">
                             <ul class="pagination">
                               <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                <a class="page-link" href="#" tabindex="-1">
+                                  Previous
+                                </a>
                               </li>
-                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">1</a>
+                              </li>
                               <li class="page-item active">
                                 <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
                               </li>
-                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">3</a>
+                              </li>
                               <li class="page-item">
                                 <a class="page-link" href="#">Next</a>
                               </li>
                             </ul>
                         </nav>
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -263,15 +259,15 @@
     </div>
 
     <!-- Include JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper.js/umd/popper.min.js"> </script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
-    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-    <script src="vendor/chart.js/Chart.min.js"></script>
-    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
-    <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/charts-home.js"></script>
-    <script src="js/front.js"></script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
+    <script src="assets/vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="assets/vendor/chart.js/Chart.min.js"></script>
+    <script src="assets/vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/charts-home.js"></script>
+    <script src="assets/js/front.js"></script>
   </body>
 </html>

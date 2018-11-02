@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AI Singapore Grant Management System 2.0</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <!-- Fontastic Custom icon font-->
+    <link rel="stylesheet" href="css/fontastic.css">
+    <!-- Google fonts - Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <!-- jQuery Circle-->
+    <link rel="stylesheet" href="css/grasp_mobile_progress_circle-1.0.0.min.css">
+    <!-- Custom Scrollbar-->
+    <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.red.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <!--link rel="stylesheet" href="css/custom.css"-->
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--
+        Settings Page
+    -->
+
+  </head>
+  <body>
+    <!-- Side Navbar -->
+    <nav class="side-navbar">
+      <div class="side-navbar-wrapper">
+
+        <!-- Sidebar Header -->
+        <div class="sidenav-header d-flex align-items-center justify-content-center">
+          <!-- User Info-->
+          <div class="sidenav-header-inner text-center">
+            <img src="img/aisg_logo_white.png" alt="person" class="img-fluid rounded-circle">
+            <h2 class="h5">Haixun</h2>
+            <span>Chief Administrator</span>
+          </div>
+
+          <!-- Small Brand information, appears on minimized sidebar-->
+          <div class="sidenav-header-logo">
+            <a href="index.html" class="brand-small text-center">
+              <strong>AI</strong>
+              <strong class="text-primary">SG</strong>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sidebar Main Menu-->
+        <div class="main-menu">
+          <h5 class="sidenav-heading">Main</h5>
+          <ul id="side-main-menu" class="side-menu list-unstyled">
+            <li>
+              <a href="index.html">
+                <i class="icon-home"></i>
+                View Proposals
+              </a>
+            </li>
+            <li>
+              <a href="forms.html">
+                <i class="icon-form"></i>
+                Grant Calls
+              </a>
+            </li>
+            <li>
+              <a href="charts.html">
+                <i class="fa fa-bar-chart"></i>
+                Settings
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Sidebar Role Specific Menu-->
+        <div class="admin-menu">
+          <h5 class="sidenav-heading">(Admin Only)</h5>
+          <ul id="side-admin-menu" class="side-menu list-unstyled"> 
+            <li>
+              <a href="#"> 
+                <i class="icon-screen"></i>
+                Item 1
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <i class="icon-flask"></i>
+                Item 2
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                <i class="icon-flask"></i>
+                Item 3
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                <i class="icon-picture"></i>
+                Item 4
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="page">
+      <!-- Top Navbar-->
+      <header class="header">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-holder d-flex align-items-center justify-content-between">
+
+              <!-- Hamburger Button (for small screen)-->
+              <div class="navbar-header">
+                <a id="toggle-btn" href="#" class="menu-btn">
+                  <i class="icon-bars"> </i>
+                </a>
+              </div>
+
+              <!-- Log out-->
+              <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+                <li class="nav-item"><a href="login.html" class="nav-link logout"> <span class="d-none d-sm-inline-block">Logout</span><i class="fa fa-sign-out"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Breadcrumb-->
+      <div class="breadcrumb-holder">
+          <div class="container-fluid">
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="#">
+                  Home
+                </a>
+              </li>
+              <li class="breadcrumb-item active">Settings</li>
+            </ul>
+          </div>
+      </div>
+
+      <!-- Main Elements -->
+      <section>
+          <div class="container-fluid">
+
+            <!-- Page Header-->
+            <header> 
+              <h1 class="h3 display">Settings</h1>
+            </header>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="card">
+                  <div class="card-body">
+                      <form class="form-horizontal">
+                          <!-- Non change-able elements -->
+                          <h3>User Information</h3>
+                          <hr>                     
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">Username</label>
+                              <div class="col-sm-4">
+                                <input type="text" disabled="" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">Account Type</label>
+                              <div class="col-sm-4">
+                                <input type="text" disabled="" class="form-control">
+                              </div>
+                          </div>                           
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">First Name</label>
+                              <div class="col-sm-4">
+                                <input type="text" disabled="" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">Last Name</label>
+                              <div class="col-sm-4">
+                                <input type="text" disabled="" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">Affiliation</label>
+                              <div class="col-sm-4">
+                                <input type="text" disabled="" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">Email</label>
+                              <div class="col-sm-4">
+                                <input type="text" disabled="" class="form-control">
+                              </div>
+                          </div>
+                      </form>
+
+                      <!-- Change Email -->
+                      <form class="form-horizontal">                          
+                          <h3>Change Email</h3>
+                          <hr>                     
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">New Email</label>
+                              <div class="col-sm-4">
+                                <input type="text" placeholder="Enter a New Email Address" class="form-control">
+                                <span class="text-small text-gray help-block-none">A confirmation link will be sent to the new email</span>
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <div class="col-sm-4 offset-sm-2">
+                                <button type="submit" class="btn btn-info">Update Email</button>
+                              </div>
+                          </div>                          
+                      </form>
+
+                      <!-- Change Password -->
+                      <form class="form-horizontal">                          
+                          <h3>Change Password</h3>
+                          <hr>                     
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">Old Password</label>
+                              <div class="col-sm-4">
+                                <input type="text" placeholder="Enter Old Password" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">New Password</label>
+                              <div class="col-sm-4">
+                                <input type="text" placeholder="Enter a New Password" class="form-control">
+                              </div>
+                          </div>                           
+                          <div class="form-group row">
+                              <label class="col-sm-2 form-control-label">Re-type New Password</label>
+                              <div class="col-sm-4">
+                                <input type="text" placeholder="Re-Enter the New Password" class="form-control">
+                              </div>
+                          </div>
+                          <div class="form-group row">
+                              <div class="col-sm-4 offset-sm-2">
+                                <button type="submit" class="btn btn-info">Update Password</button>
+                              </div>
+                          </div>                          
+                      </form>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+      </section>
+
+
+      <!-- Footer -->
+      <footer class="main-footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>AI Singapore &copy; 2019</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Include JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/charts-home.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
